@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Webpack Modules</title>
+      <link href="/posts/707cc9fb/"/>
+      <url>/posts/707cc9fb/</url>
+      
+        <content type="html"><![CDATA[<h1 id="What-is-module"><a href="#What-is-module" class="headerlink" title="What is module?"></a>What is module?</h1><p>In modular programming, developers break programs up into discrete chunks of functionality called a module.</p><p>Each module has a smaller surface area than a full program, making verification, debugging, and testing trivial. Well-written modules provide solid abstractions and encapsulation boundaries, so that each module has a coherent design and a clear purpose within the overall application.</p><p>Node.js has supported modular programming almost since its inception. On the web, however, support for modules has been slow to arrive. Multiple tools exist that support modular JavaScript on the web, with a variety of benefits and limitations. webpack builds on lessons learned from these systems and applies the concept of modules to any file in your project.</p><h1 id="What-is-a-webpack-Module"><a href="#What-is-a-webpack-Module" class="headerlink" title="What is a webpack Module?"></a>What is a webpack Module?</h1><p>In contrast to Node.js modules, webpack modules can express their dependencies in a variety of ways. A few examples are:</p><ul><li>An ES2015 <code>import</code> statement</li><li>A CommonJS <code>require()</code> statement</li><li>An AMD <code>define</code> and <code>require</code> statement</li><li>An <code>@import</code> statement inside of a css/sass/less file</li><li>An image url in a stylesheet <code>url(...)</code> or HTML <code>&lt;img src=...&gt;</code> file.</li></ul><blockquote><p><a href="https://code-trotter.com/web/understand-the-different-javascript-modules-formats/" target="_blank" rel="noopener">Understand the different javascript modules formats</a></p></blockquote><p><strong>In addition</strong></p><p>Webpack supports modules written in a variety of languages and preprocessors via loaders. Loaders describe to webpack how to process non-native modules and include these dependencies into your bundles. The webpack community has built loaders for a wide variety of popular languages and language processors, including:</p><ul><li>CoffeScript</li><li>TypeScript</li><li>ESNExt(Babel)</li><li>Sass</li><li>Less</li><li>Stylus</li><li>Elm</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Tech </tag>
+            
+            <tag> Frontend </tag>
+            
+            <tag> JavaScript </tag>
+            
+            <tag> Webpack </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Basic Concepts of Webpack</title>
       <link href="/posts/f1d30ae0/"/>
       <url>/posts/f1d30ae0/</url>
@@ -19,6 +44,8 @@
             <tag> Frontend </tag>
             
             <tag> JavaScript </tag>
+            
+            <tag> Webpack </tag>
             
         </tags>
       
